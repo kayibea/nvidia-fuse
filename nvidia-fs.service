@@ -1,0 +1,13 @@
+[Unit]
+Description=NVIDIA GPU Stats FUSE daemon
+After=network.target
+
+[Service]
+Type=simple
+ExecStartPre=/usr/bin/mkdir -pm 755 /tmp/nvfs
+ExecStart=/usr/local/bin/nvfs -f -o allow_other /tmp/nvfs
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

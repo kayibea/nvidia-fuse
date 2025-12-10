@@ -1,4 +1,4 @@
-# Nvidia File System
+# NVIDIA File System
 
 Share Nvidia GPU stats through a fuse file system
 

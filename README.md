@@ -1,6 +1,6 @@
-# NVIDIA File System
+# NVIDIA FUSE File System
 
-Share Nvidia GPU stats through a fuse file system
+Expose NVIDIA GPU stats through a fuse file system
 
 # Build
 ```bash

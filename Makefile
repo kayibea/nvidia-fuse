@@ -4,7 +4,7 @@ LDFLAGS = -lnvidia-ml -lfuse3
 
 SRC = main.c
 BIN = nvfs
-SERVICE = nvidia-fs.service
+SERVICE = nvidia-fuse.service
 
 PREFIX = /usr/local
 BINDIR = $(PREFIX)/bin
